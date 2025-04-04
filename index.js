@@ -12,5 +12,5 @@ const movingBox = document.querySelector('#box')
 window.addEventListener('mousemove', _.debounce((event) => {
 movingBox.style.left = event.clientX + "px"
 movingBox.style.top =  event.clientY + "px"
-}, 100)
+}, 200)
 );
